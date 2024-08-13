@@ -84,8 +84,8 @@ function App() {
     if (speed >= 300) return "Slower";
     if (speed >= 350) return "Slow";
     if (speed >= 250) return "Normal";
-    if (speed >= 200) return "Fast";
-    if (speed >= 100) return "Faster";
+    if (speed >= 150) return "Fast";
+    if (speed >= 25) return "Faster";
     return "Fastest";
   };
 
